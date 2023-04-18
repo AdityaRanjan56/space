@@ -1,0 +1,74 @@
+body{
+	background: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav header h1{
+	color: white;
+	font-family: fantasy;
+}
+nav header h1 b{
+	font-weight: bolder;
+	font-size: 50px;}
+nav header div{
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+nav header div div{
+	width: 20px;
+	height: 8px;
+	background-color: white;
+	margin-top: 8px;
+	justify-content: flex-end;
+	border-radius: 10px;
+}
+.first{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.second{
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+.third{
+	position: absolute;
+	right: 20px;
+	top: 60px;
+}
+.container{
+	color: white;
+	margin-left: 38%;
+	margin-top: 100px;
+}
+.container h1{
+	font-size: 100px;
+
+}
+.container p{
+	font-size: 40px;
+	position: relative;
+	top: -20px;
+	left: 60px;
+}
+.container button{
+	position: relative;
+	left: 148px;
+	padding: 20px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border: none;
+	transition: all 1.6s;
+}
+button:hover{
+	padding: 40px;
+}
+footer svg{
+	position: absolute;
+	bottom: 22px;
+	left: 46.6%;
+	cursor: pointer;
+}
